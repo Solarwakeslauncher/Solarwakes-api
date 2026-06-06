@@ -14,7 +14,7 @@ export default async function handler(req, res) {
   if (sha) body.sha = sha;
 
   const response = await fetch(
-    `https://api.github.com/repos/naklirajveerfr/solarwakes-skins/contents/${filePath}`,
+    `https://api.github.com/repos/Solarwakeslauncher/Solarwakes-api/contents/${filePath}`,
     {
       method: 'PUT',
       headers: {
